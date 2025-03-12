@@ -1,0 +1,149 @@
+div#layout{
+    margin: 0 auto;
+    width: 500px;
+    height: 700px;
+    background-color:rgb(255, 255, 255);
+}
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+}
+
+header {
+    background-color: #e7e7e7;
+}
+
+header nav ol a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 650;
+    margin-left: 10px;
+    position: relative;
+    top: 7px;
+}
+
+header nav {
+    margin-top: 10px;
+    border-bottom: 2px solid #3b3e4d;
+    
+}
+
+header h1 {
+    margin-left: 25px;
+    font-size: 20pt;
+    position: relative;
+    bottom: 10px;
+    color: #3b3e4d;
+    left: 7px;
+}
+
+header h1 strong {
+    color: rgb(28, 122, 211);
+}
+
+#economia {
+    color: #d15600;
+    margin-left: -15px;
+    margin-right: 60px;
+}
+
+#esporte {
+    color: #06880d;
+    margin-right: 60px;
+}
+
+#carros {
+    color: #9d0a00;
+    margin-right: 60px;
+}
+
+#pets {
+    color: #e62514;
+    margin-right: 0px;
+}
+
+#ao_vivo {
+    color: black;
+    text-decoration: underline black;
+    font-weight: 475;
+}
+
+#premio {
+    color: #005e96;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 24pt;
+    position: relative;
+    bottom: 35px;
+    font-stretch: expanded;
+    margin-bottom: -10px;
+}
+
+#secao1 {
+    border-bottom: 1px dashed #d1d1d1;
+}
+
+#secao2 {
+    border-bottom: 1px dashed #d1d1d1;
+    color: #005e96;
+}
+
+#brasil {
+    color: black;
+    font-weight: 500;
+    margin-bottom: -25px;
+    font-size: 11pt;
+}
+
+#negociacao {
+    font-size: 20pt;
+    font-weight: 490;
+    margin-bottom: -10px;
+}
+
+#gov {
+    margin-bottom: -10px;
+    color: #005e96;
+}
+
+#onu {
+    color: #005e96;
+}
+
+#lista {
+    color: black;
+    font-size: 11pt;
+    position: relative;
+    margin-bottom: 25px;
+    right: 20px;
+}
+
+#secao3 {
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+
+#carro {
+    position: relative;
+    bottom: 115px;
+    left: 10px;
+    size: 100px;
+}
+
+#carro_texto {
+    font-size: 9pt;
+    font-weight: 500;
+    margin-bottom: -15px;
+}
+
+#smart {
+    color: #005e96;
+    font-weight: 500;
+    font-size: 14pt
+}
+
+#secao33 {
+    position: relative;
+    top: 10px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olá mundo!</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style01.css">
+</head>
+<body>
+
+    <!--
+    A sintaxe do html é formada por:
+    <tag> conteúdo </tag>
+
+    Tenho tags de dois tipos:
+    1 - Estrutural;
+    2 - Conteúdo.
+
+    Exemplos de tags estruturais:
+    - body: que é toda a parte visível do site
+    - header: topo do site normalmente onde tenho o logo e menu;
+    - nav: tag que declara o menu;
+    - main: tag que declara o corpo do site;
+    - section: que divide sessões do site;
+    - divs: que divide sections;
+    - footer: a base do site;
+    - article: par ao artigo principal da página.
+
+    Exemplos de tags de conteúdo:
+    - h1 até h5: Títulos com graus de importância semântica;
+    - p: parágrafo;
+    - img: imagem;
+    - a: é link;
+    - ul: lista não ordenada;
+    - ol: lista ordenada;
+    - li: item de lista;
+    -->
+
+    <header> <!-- a cabeça do site-->
+        <!--Logotipo-->
+        <a href="index.html"><img src="image/Coca-Cola_logo_white.png" alt="logotipo da Coca-Cola" id="logo-principal"></a>
+        <!--Menu de Navegação-->
+        <nav>
+            <ol>
+                <li><a href="">Home</a></li>
+                <li><a href="">Empresa</a></li>
+                <li><a href="">Contato</a></li>
+            </ol>
+        </nav>
+    </header>
+    <!--Corpo do site-->
+    <main>
+        <!--Banner - Slider-->
+        <section id="slider"></section>
+        <!--Conteúdo - Texto-->
+        <article>
+            <div class="artigo">
+                <h2>Título 1</h2>
+                <p>Mussum Ipsum, cacilds vidis litro abertis.  Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Paisis, filhis, espiritis santis. Sapien in monti palavris qui num significa nadis i pareci latim. A ordem dos tratores não altera o pão duris.</p>
+            </div>
+            <div class="artigo">
+                <h2>Título 2</h2>
+                <p>Mussum Ipsum, cacilds vidis litro abertis.  Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Paisis, filhis, espiritis santis. Sapien in monti palavris qui num significa nadis i pareci latim. A ordem dos tratores não altera o pão duris.</p>
+            </div>
+            <div class="artigo">
+                <h2>Título 3</h2>
+                <p>Mussum Ipsum, cacilds vidis litro abertis.  Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Paisis, filhis, espiritis santis. Sapien in monti palavris qui num significa nadis i pareci latim. A ordem dos tratores não altera o pão duris.</p>
+            </div>
+        </article>
+
+    </main>
+    <!--É a base do site-->
+    <footer>
+        <!--Link de navegação de Redes Sociais-->
+        <div>
+            <nav id="redes-sociais">
+                <ol>
+                    <li><a href=""><img src="image/face.png" alt="Ícone do Facebook"></a></li>
+                    <li><a href=""><img src="image/insta.png" alt="Ícone do Instagram"></a></li>
+                    <li><a href=""><img src="image/whats.png" alt="Ícone do WhatsApp"></a></li>
+                </ol>
+            </nav>
+        </div>
+        <!--Copy-->
+        <div>
+            <p> <b>Criado por:</b> <strong>Fatec Taquaritinga</strong> </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
